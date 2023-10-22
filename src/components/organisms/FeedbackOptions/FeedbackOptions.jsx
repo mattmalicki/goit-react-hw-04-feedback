@@ -1,5 +1,5 @@
 import { FeedbackButtons } from 'components/molecules/FeedbackButtons/Feedbackbuttons';
-import styles from './FeedbackOptions.css';
+import styles from './FeedbackOptions.module.css';
 
 export const FeedbackOptions = ({ options, onClick }) => {
   return (
