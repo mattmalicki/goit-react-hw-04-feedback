@@ -1,3 +1,7 @@
 export const Button = ({ children, className }) => {
-  return <button className={className}>{children}</button>;
+  return (
+    <button id={children} className={className}>
+      {children}
+    </button>
+  );
 };
