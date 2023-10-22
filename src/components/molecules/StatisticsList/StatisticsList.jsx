@@ -8,7 +8,7 @@ export const StatisticsList = ({ className, stats }) => {
       <StatisticsItem>Bad: {stats.bad}</StatisticsItem>
       <StatisticsItem>Total: {stats.total}</StatisticsItem>
       <StatisticsItem>
-        Positive percentage: {stats.positivePercentage}%
+        Positive percentage: {Math.round((stats.good * 100) / stats.total)}%
       </StatisticsItem>
     </div>
   );
