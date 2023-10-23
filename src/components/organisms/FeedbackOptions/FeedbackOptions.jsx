@@ -1,10 +1,10 @@
-import { FeedbackButtons } from '../molecules/FeedbackButtons/FeedbackButtons';
+import { ButtonsFeedback } from '../molecules/ButtonsFeedback/ButtonsFeedback';
 import styles from './FeedbackOptions.module.css';
 
 export const FeedbackOptions = ({ options, onClick }) => {
   return (
     <div className={styles.feedbackButtons} onClick={onClick}>
-      <FeedbackButtons
+      <ButtonsFeedback
         options={options}
         classForButton={styles.feedbackButton}
       />
