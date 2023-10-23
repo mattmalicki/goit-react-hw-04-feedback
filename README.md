@@ -10,7 +10,12 @@ count all of them and count the positive percentage of them.
 
 ## Technologies
 
-Used technologies: *JavaScript, *React, *CSS, *HTML
+Used technologies:
+
+- JavaScript,
+- React,
+- CSS,
+- HTML
 
 ## GH-Pages of project
 
