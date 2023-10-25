@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { FeedbackButtons } from 'components/molecules/FeedbackButtons/FeedbackButtons';
+import { FeedbackButtons } from '../../molecules/FeedbackButtons/FeedbackButtons';
 import styles from './FeedbackOptions.module.css';
 
 export const FeedbackOptions = ({ options, onClick }) => {
