@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { StatisticsItem } from 'components/atoms/StatisticsItem/StatisticsItem';
 
 export const StatisticsList = ({ className, stats }) => {
@@ -12,4 +13,14 @@ export const StatisticsList = ({ className, stats }) => {
       </StatisticsItem>
     </div>
   );
+};
+
+StatisticsList.propTypes = {
+  className: PropTypes.string,
+  stats: PropTypes.shape({
+    good: PropTypes.number,
+    neutral: PropTypes.number,
+    bad: PropTypes.number,
+    total: PropTypes.number,
+  }),
 };

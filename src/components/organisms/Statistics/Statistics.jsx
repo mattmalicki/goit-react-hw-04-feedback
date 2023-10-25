@@ -1,5 +1,6 @@
 import { StatisticsList } from 'components/molecules/StatisticsList/StatisticsList';
 import { Notification } from 'components/atoms/Notification/Notification';
+import PropTypes from 'prop-types';
 import styles from './Statistics.module.css';
 
 export const Statistics = ({ ...stats }) => {
@@ -17,4 +18,8 @@ export const Statistics = ({ ...stats }) => {
       )}
     </>
   );
+};
+
+Statistics.propTypes = {
+  stats: PropTypes.arrayOf(PropTypes.number),
 };

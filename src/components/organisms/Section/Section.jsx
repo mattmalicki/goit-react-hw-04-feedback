@@ -1,5 +1,6 @@
 import { Statistics } from '../Statistics/Statistics';
 import { FeedbackOptions } from '../FeedbackOptions/FeedbackOptions';
+import PropTypes from 'prop-types';
 
 import { useEffect, useState } from 'react';
 
@@ -39,4 +40,8 @@ export const Section = ({ title }) => {
       <Statistics good={good} neutral={neutral} bad={bad} />
     </>
   );
+};
+
+Section.propTypes = {
+  title: PropTypes.string,
 };
